@@ -10,7 +10,6 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí iría tu lógica de autenticación real
     navigate("/dashboard");
   };
 
